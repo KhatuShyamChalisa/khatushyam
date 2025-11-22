@@ -605,7 +605,7 @@ a {
     }
 }
 
-.chalisahub-article-button {
+.chalisahub-article-content .chalisahub-article-button {
     background: #003366;
     color: #ffffff;
     border: none;
@@ -617,13 +617,16 @@ a {
     transition: all 0.3s ease;
     text-decoration: none;
     display: block;
+    width: fit-content;
     margin: 15px auto;
     animation: article-jump 2s infinite;
 }
 
-.chalisahub-article-button:hover {
+.chalisahub-article-content .chalisahub-article-button:hover {
     background: #000000;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .chalisahub-article-content a {
